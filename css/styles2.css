@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arima+Madurai|Baloo+Bhai|Baloo+Bhaijaan|Baloo+Bhaina|Bangers|Black+Ops+One|Boogaloo|Bowlby+One+SC|Chewy|Cinzel+Decorative|Fredoka+One|Graduate|Kelly+Slab|Lalezar|Lobster+Two|Luckiest+Guy|Modak|Odibee+Sans|Patua+One|Playball|Poiret+One|Press+Start+2P|Racing+Sans+One|Righteous|Shojumaru|Shrikhand|Squada+One|Turret+Road|Yeon+Sung&display=swap");
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+ /* Fonts */
+
+ --squada-one: "Squada One", cursive;
+ --patua-one: "Patua One", cursive;
+ --baloo-bhai: "Baloo Bhai", cursive;
+ --alfa-slab-one: "Alfa Slab One", cursive;
+ --fredoka-one: "Fredoka One", cursive;
+ --modak: "Modak", cursive;
+ --lobster-two: "Lobster Two", cursive;
+ --bangers: "Bangers", cursive;
+ --poiret-one: "Poiret One", cursive;
+ --lalezar: "Lalezar", cursive;
+ --press-start: "Press Start 2P", cursive;
+ --luckiest-guy: "Luckiest Guy", cursive;
+ --boogaloo: "Boogaloo", cursive;
+ --turret-road: "Turret Road", cursive;
+ --yeon-sung: "Yeon Sung", cursive;
+ --chewy: "Chewy", cursive;
+ --black-ops-one: "Black Ops One", cursive;
+ --shrikhand: "Shrikhand", cursive;
+ --arima-madurai: "Arima Madurai", cursive;
+ --racing-sans-one: "Racing Sans One", cursive;
+ --cinzel-decor: "Cinzel Decorative", cursive;
+ --baloo-bhaina: "Baloo Bhaina", cursive;
+ --baloo-bhaijaan: "Baloo Bhaijaan", cursive;
+ --shojumari: "Shojumaru", cursive;
+ --graduate: "Graduate", cursive;
+ --kelly-slab: "Kelly Slab", cursive;
+
+ --roboto: "Roboto", sans-serif;
+ --solway: "Solway", serif;
+ --bebas-neue: "Bebas Neue", cursive;
+ --sulphur-point: "Sulphur Point", sans-serif;
+ --roboto-cond: "Roboto Condensed", sans-serif;
+ --raleway: "Raleway", sans-serif;
+ --roboto-mono: "Roboto Mono", monospace;
+ --public-sans: "Public Sans", sans-serif;
+ --nunito: "Nunito", sans-serif;
+ --noto-sans-jp: "Noto Sans JP", sans-serif;
+ --work-sans: "Work Sans", sans-serif;
+ --tomorrow: "Tomorrow", sans-serif;
+ --arimo: "Arimo", sans-serif;
+ --noto-sans-kr: "Noto Sans KR", sans-serif;
+
+ /* Coolors */
+
+ --reg-green: #002400;
+ --leather-green: #273b09;
+ --antique-bronze: #58641d;
+ --palm-leaf: #7b904b;
+ --gainsboro: #dbd2e0;
+ --white: #ffffff;
+ --cambridge-blue: #9db5b2;
+ --azurish-white: #daf0ee;
+ --pearl-aqua: #94d1be;
+ --ras-pink: #e36397;
+ --opera-mauve: #bc8da7;
+ --gray-x11: #bdb4bf;
+ --gainsboro-2: #d9d9d9;
+ --flash-white: #eff2ef;
+ --desert-sand: #dbd8ae;
+ --antique-brass: #ca907e;
+ --chestnut: #994636;
+ --grizzly: #895b1e;
+ --sky-blue: #88d9e6;
+ --gray-blue: #8b8bae;
+ --stormcloud: #526760;
+ --charcoal: #374b4a;
+ --gunmetal: #2d3142;
+ --silver: #bfc0c0;
+ --red-ochre: #ef8354;
+ --black-coral: #4f5d75;
+ --cerulean: #2b59c3;
+ --st-patrick: #253c78;
+ --champion: #d36582;
+ --khaki-css: #c9a690;
+ --spanish-gray: #a2999e;
+ --pastel-brown: #846a6a;
+ --onyx: #353b3c;
+ --cornflower: #afcbff;
+ --maastricht: #0e1c36;
+ --peach-puff: #f7d4bc;
+ --siver-pink: #cfa5b4;
+ --purple: #c98bb9;
+ --chinese-violet: #846b8a;
+}
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+p {
+ font-size: 1.6rem;
+}
+
+.btn {
+ border-radius: 2rem;
+ padding: 1rem 2rem;
+ text-align: center;
+ background-color: var(--antique-bronze);
+ color: var(--azurish-white);
+ margin-top: 2rem;
+ display: inline-block;
+ font-size: 1rem;
+ text-transform: uppercase;
+ letter-spacing: 0.2rem;
+ transition: 420ms ease;
+}
+
+.btn:hover {
+ background: var(--black-coral);
+}
+
+section {
+ padding: 0;
+}
+
+body {
+ font-family: var(--graduate);
+ background: var(--maastricht);
+ color: var(--azurish-white);
+}
+
+/* Parent Child */
+
+.parent {
+ width: 100%;
+ max-width: 98rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.child {
+ width: 20rem;
+ height: 10rem;
+ background-color: var(--champion);
+ color: var(--cornflower);
+ margin: 2rem;
+ text-align: center;
+ font-size: 5rem;
+ cursor: pointer;
+}
+
+.bak {
+ background-color: var(--palm-leaf);
+ color: var(--red-ochre);
+}
